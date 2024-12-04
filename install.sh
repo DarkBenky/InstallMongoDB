@@ -24,8 +24,8 @@ echo "Updating package database..."
 sudo apt-get update
 
 # Install MongoDB packages
-echo "Installing MongoDB packages: mongodb-mongocli and mongodb-org..."
-sudo apt-get install -y mongodb-mongocli mongodb-org
+echo "Installing MongoDB packages: mongodb-org..."
+sudo apt-get install -y mongodb-org
 
 # Start MongoDB service
 echo "Starting MongoDB service..."
